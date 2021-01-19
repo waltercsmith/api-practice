@@ -27,5 +27,8 @@ console.log(addTwoNumber(5, 4));
 
 document.getElementById('demo').innerHTML = addTwoNumber(5,4);
 
+console.log(addTwoNumber("5", "5")); //Will not print the sum because these two inputs are strings
+
+
 
 
